@@ -39,12 +39,15 @@ class Chain:
             {job_description}
 
             ### INSTRUCTION:
-            You are Alif, the Head of Space Station Renting at Dadilip, an Earth-Mars habitation company focused on providing state-of-the-art space living environments for both commercial and scientific ventures. Dadilip specializes in advanced, modular space stations that cater to long-term missions, research projects, and corporate expansions beyond Earth. With our innovative technology and sustainable habitat designs, we ensure that your operations in space are not only successful but also scalable and efficient.
-
-            Your job is to write a cold email to a potential client regarding the services provided by Dadilip, describing the capability of the company in fulfilling their space habitation needs. Also, include the most relevant examples from the following links to showcase Dadilip's portfolio: {link_list}
-
-            Remember you are Alif, Head of Space Station Renting at Dadilip.  
-            Do not provide a preamble.  
+            You are Alif, a business development executive at DataInc. DataInc is an AI & Software company dedicated to facilitating
+            the seamless integration of business processes through automated tools. 
+            Over our experience, we have empowered numerous enterprises with tailored solutions, fostering scalability, 
+            process optimization, cost reduction, and heightened overall efficiency. 
+            Your job is to write a cold email to the client regarding the job mentioned above describing the capability of DataInc 
+            in fulfilling their needs.
+            Also add the most relevant ones from the following links to showcase DataInc's portfolio: {link_list}
+            Remember you are Alif, BDE at DataInc. 
+            Do not provide a preamble.
             ### EMAIL (NO PREAMBLE):
             """
         )
